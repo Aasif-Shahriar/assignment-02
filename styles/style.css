@@ -102,6 +102,70 @@
     padding: 10px 47px;
 }
 
+/* main styles */
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 140px;
+}
+/* section - 1 styles */
+.curriculum-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.85rem;
+    font-weight: 700;
+}
+/* all curriculum cards style */
+.curriculum-card{
+    margin: 80px 0;
+    justify-content: space-between;
+}
+.card{
+    width: 367px;
+    text-align: center;
+    border-radius: 18px;
+    padding: 52px 40px;
+    box-shadow: 0 0 28px 1px rgba(0, 0, 0, 0.05) inset;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+    margin: 32px 0;
+}
+.card-description{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 33px;
+}
+.card-link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+#card1{
+    background: linear-gradient(0deg, white 70%, #DEF5FF);
+    border: 1px solid #DEF5FF;
+}
+#card2{
+    background: linear-gradient(0deg, white 70%, #FFF4DC);
+    border: 0.94px solid #FFF4DC;
+}
+#card3{
+    background: linear-gradient(0deg, white 70%, #F2E8FF);
+    border: 0.94px solid #F2E8FF;
+}
+#card1 > a{
+    color: #01ACFD;
+}
+#card2 > a{
+    color: #F0AA00;
+}
+#card3 > a{
+    color: #8700FF;
+}
+
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -144,4 +208,19 @@
         border-radius: 8px;
         padding: 6px 24px;
       }
+      /* main responsive */
+      .main{
+        padding: 0 16px;
+    }
+    .curriculum-title{
+        font-size: 1.65rem;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .curriculum-card{
+        flex-direction: column;
+        gap: 12px;
+        margin: 20px 0;
+    }
+
 }
