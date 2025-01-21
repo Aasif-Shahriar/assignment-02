@@ -68,6 +68,10 @@
   color: #fff;
   border-radius: 12px;
   cursor: pointer;
+  transition: background .5s;
+}
+.nav-btn:hover{
+    background: #01ACFD;
 }
 .hamburger{
     display: none;
@@ -109,6 +113,10 @@
     border-radius: 12px;
     padding: 10px 47px;
     cursor: pointer;
+    transition: background 1s;
+}
+.hero-btn:hover{
+    background: linear-gradient(to left, #01ACFD, orange, #5D58EF);
 }
 
 /* main styles */
@@ -200,6 +208,13 @@
     align-items: center;
     font-size: 1.5rem;
     cursor: pointer;
+    transition: .5s;
+}
+.left-arrow:hover{
+    background: #01ACFD;
+}
+.right-arrow:hover{
+    background: #01ACFD;
 }
 
 /* section - 02 styles */
@@ -304,6 +319,10 @@
     border: none;
     cursor: pointer;
     margin-bottom: 60px;
+    transition: 1s;
+}
+.story-btn:hover{
+    background: linear-gradient(to left, #01ACFD, orange, #5D58EF);
 }
 
 /* footer styles start*/
