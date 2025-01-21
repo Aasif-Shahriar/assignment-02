@@ -67,6 +67,7 @@
   font-size: 20px;
   color: #fff;
   border-radius: 12px;
+  cursor: pointer;
 }
 .hamburger{
     display: none;
@@ -107,18 +108,23 @@
     font-weight: 700;
     border-radius: 12px;
     padding: 10px 47px;
+    cursor: pointer;
 }
 
 /* main styles */
-.main{
+/* section - 1 styles */
+.curriculum-section{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 140px;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-/* section - 1 styles */
 .section-title{
     text-align: center;
-    margin-top: 60px;
+    padding-top: 60px;
     font-size: 2.85rem;
     font-weight: 700;
 }
@@ -170,7 +176,7 @@
     border: 0.94px solid #F2E8FF;
 }
 #card1 > a{
-    color: #01ACFD;
+    color: #64C8FF;
 }
 #card2 > a{
     color: #F0AA00;
@@ -197,6 +203,15 @@
 }
 
 /* section - 02 styles */
+.stories-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 140px;
+    background: url(../assets/bg.png), linear-gradient(to bottom, #FFFFFF, rgba(254, 163, 1, 0.3));
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100% auto; 
+}
 .stories-card{
     gap: 19px;
     margin: 80px 0;
@@ -205,6 +220,7 @@
     background: #fff;
     border-radius: 16px;
     position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .story1-card > img{
     border-radius: 16px 16px 0 0;
@@ -249,6 +265,7 @@
     border-radius: 16px;
     background-color: #fff;
     position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .story2-card > img{
     border-radius: 16px 16px 0 0;
@@ -290,6 +307,61 @@
 }
 
 
+
+/* footer styles start*/
+.footer{
+    width: 1440px;
+    padding: 123px 140px 174px;
+    margin: 0 auto;
+    background: #01ACFD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container img{
+    width: 81px;
+    height: 81px;
+}
+.footer-logo-title{
+    width: 200px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+}
+.footer-logo-description{
+    width: 400px;
+    font-size: 1.25rem;
+    color: #fff;
+    margin-top: 35px;
+    line-height: 36px;
+    text-align: justify;
+}
+.footer-links-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #fff;
+
+}
+.footer-nav > li{
+    list-style-type: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer-icon-title{
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.footer-icons > img{
+    margin-right: 10px;
+    cursor: pointer;
+}
 /* responsive for small devices */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -333,13 +405,12 @@
         padding: 6px 24px;
       }
       /* main responsive */
-      .main{
+      .curriculum-section{
         padding: 0 16px;
     }
     .section-title{
         font-size: 1.65rem;
-        margin-top: 40px;
-        margin-bottom: 20px;
+        padding-top: 40px;
     }
     .curriculum-card{
         flex-direction: column;
@@ -350,6 +421,10 @@
         display: none;
     }
     /* story 2 */
+    .stories-section{
+        width: 100%;
+        padding: 0 16px;
+    }
     .stories-card{
         margin: 20px 0;
     }
@@ -387,5 +462,41 @@
         font-weight: 600;
         border-radius: 10px;
         margin-bottom: 40px;
+    }
+    /* footer */
+    .footer{
+        width: 100%;
+        padding: 65px 20px 60px;
+        background: #01ACFD;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .footer-logo{
+        width: 250px;
+    }
+    .footer-logo-title{
+        font-size: 2.25rem;
+    }
+    .footer-logo-description{
+        font-size: 1rem;
+        margin-top: 22px;
+        line-height: 28px;
+    }
+    .footer-links-title{
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 32px;
+    }
+    .footer-nav > li{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 17px;
+    }
+    .footer-icon-title{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .footer-icons > img{
+        margin-right: 8px;
     }
 }
