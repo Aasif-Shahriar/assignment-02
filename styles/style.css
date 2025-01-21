@@ -306,8 +306,6 @@
     margin-bottom: 60px;
 }
 
-
-
 /* footer styles start*/
 .footer{
     width: 1440px;
@@ -317,7 +315,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .logo-container img{
     width: 81px;
     height: 81px;
@@ -335,7 +332,6 @@
     color: #fff;
     margin-top: 35px;
     line-height: 36px;
-    text-align: justify;
 }
 .footer-links-title{
     font-size: 1.5rem;
