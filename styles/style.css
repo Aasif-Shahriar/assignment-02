@@ -461,6 +461,9 @@
     .arrow-btn{
         display: none;
     }
+    .card{
+        width: 90%;
+    }
     /* story 2 */
     .stories-section{
         width: 100%;
@@ -543,5 +546,9 @@
     .marquee{
         padding: 16px;
         font-size: 1.5rem;
+    }
+    .card:hover{
+        transform: translateY(0);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     }
 }
