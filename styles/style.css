@@ -392,6 +392,10 @@
     color: #fff;
     margin-bottom: 20px;
     cursor: pointer;
+    transition: all .3s;
+}
+.footer-nav > li:hover{
+    text-decoration: underline;
 }
 .footer-icon-title{
     font-size: 1.6rem;
@@ -551,5 +555,195 @@
     .card:hover{
         transform: translateY(0);
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* medium device responsive */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .marquee{
+        width: 100%;
+        padding: 20px 40px;
+    }
+    /* header style */
+    .header {
+      width: 100%;
+    }
+    /* navbar style */
+    .navbar {
+      justify-content: space-between;
+      padding: 20px 40px;
+    }
+    .nav-links {
+      gap: 22px;
+    }
+    .logo-title {
+      font-size: 1.5rem;
+      margin-left: 9px;
+    }
+    .logo-title > img{
+        width: 50px;
+        height: 50px;
+    }
+    .nav-link {
+      font-size: 1rem;
+    }
+    .nav-btn {
+      padding: 10px 45px;
+      font-size: 1rem;
+      border-radius: 10px;
+    }
+    /* hero section styles */
+    .hero{
+        padding: 0 40px;
+    }
+    .hero-content{
+        max-width: 400px;
+    }
+    .hero-title{
+        font-size: 2.5rem;
+    }
+    .hero-description{
+        font-size: 1rem;
+    }
+    .hero-img > img{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        object-position: 0% 0%;
+    }
+    .hero-btn{
+        font-size: 1rem;
+        border-radius: 10px;
+        padding: 10px 40px;
+    }
+    
+    /* main styles */
+    /* section - 1 styles */
+    .curriculum-section{
+        width: 100%;
+        padding: 0 40px;
+    }
+    .section-title{
+        padding-top: 45px;
+        font-size: 2.25rem;
+    }
+    /* all curriculum cards style */
+    .curriculum-card{
+        margin: 60px 0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+   
+    /* individual card style */
+   
+    .arrow-btn{
+        margin-bottom: 45px;
+    }
+    
+    /* section - 02 styles */
+    .stories-section{
+        width: 100%;
+        padding: 0 40px;
+    }
+    .stories-card{
+        gap: 15px;
+        margin: 60px 0;
+    }
+    .story1-card{
+        border-radius: 14px;
+    }
+    .story1-card > img{
+        width: 400px;
+        height: 250px;
+        border-radius: 14px 14px 0 0;
+    }
+    .story1-content{
+        padding: 0 0 24px 20px;
+    }
+    #story1-btn{
+        top: 44%;
+    }
+    .story1-title{
+        width: 380px;
+        font-size: 1.25rem;
+        line-height: 30px;
+        margin: 50px 0 40px 0;
+    }
+    .story1-description{
+        width: 380px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    /* story 2 style */
+    .story2-card-container{
+        gap: 10px;
+    }
+    .story2-card{
+        border-radius: 14px;
+        position: relative;
+    }
+    .story2-card > img{
+        width: 100%;
+        border-radius: 14px 14px 0 0;
+    }
+    .story-title{
+        font-size: 12px;
+        line-height: 22px;
+        padding: 0 28px 18px;
+        margin-top: 28px;
+    }
+    .story2-btn{
+        font-size: 13px;
+       padding: 10px 18px;
+       border-radius: 40px;
+       top: 48%;
+       left: 28px;
+    }
+    .extra-card{
+        display: none;
+    }
+    .story-btn{
+        padding: 10px 40px;
+        font-size: 1.15rem;
+        margin-bottom: 45px;
+    }
+    
+    /* footer styles start*/
+    .footer{
+        width: 100%;
+        padding: 100px 40px 134px;
+    }
+    .logo-container img{
+        width: 55px;
+        height: 55px;
+    }
+    .footer-logo-title{
+        width: 150px;
+        font-size: 2.4rem;
+    }
+    .footer-logo-description{
+        width: 320px;
+        font-size: 1rem;
+        color: #fff;
+        margin-top: 30px;
+        line-height: 28px;
+    }
+    .footer-links-title{
+        font-size: 1.25rem;
+    }
+    .footer-nav > li{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .footer-icon-title{
+        font-size: 1.3rem;
+        margin-bottom: 28px;
+    }
+    .footer-icons > img{
+        margin-right: 10px;
+        cursor: pointer;
     }
 }
