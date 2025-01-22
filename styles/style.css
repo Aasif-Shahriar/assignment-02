@@ -19,6 +19,20 @@
     display: none;
 }
 
+
+/* marquee styles */
+.marquee{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #01ACFD;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.assignment{
+    color: #F0AA00;
+}
 /* header style */
 .header {
   max-width: 1440px;
@@ -513,5 +527,9 @@
     }
     .footer-icons > img{
         margin-right: 8px;
+    }
+    .marquee{
+        padding: 16px;
+        font-size: 1.5rem;
     }
 }

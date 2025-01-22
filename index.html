@@ -1,173 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Kindergarten</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="marquee">
+        <marquee behavior="scroll" direction="left" scrollamount="15">This is an <span class="assignment">Assignment Project</span> from 'Programming Hero'. The assignment is about a Kindergarten School information. The website shows about the admission circular, facilities, study curriculum and school stories. Hope kids will like the website.</marquee>
+    </div>
     <header class="header">
-        <nav class="navbar flex">
-            <div class="logo flex">
-                <img src="assets/logo.png" alt="brand logo">
-                <h3 class="logo-title">SCHOOL</h3>
-            </div>
-            <ul class="nav-links flex">
-                <li class="nav-item"><a href="#" id="home" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" id="about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" id="facilities" class="nav-link">Facilities</a></li>
-                <li class="nav-item"><a href="#" id="admission" class="nav-link">Admission</a></li>
-            </ul>
-            <div class="hamburger">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="btn">
-                <button class="nav-btn">Contact</button>
-            </div>
-        </nav>
-        <div class="hero flex">
-            <div class="hero-content">
-                <h3 class="hero-title"> <span id="empower">Empowering</span><br>
-                    students from small age <span id="vision">towards vision</span></h3>
-                <div class="hero-description">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</div>
-                <div class="hero-button">
-                    <button class="hero-btn">Enroll Now</button>
-                </div>
-            </div>
-            <div class="hero-img">
-                <img src="assets/hero-kids.png" alt="">
-            </div>
+      <nav class="navbar flex">
+        <div class="logo flex">
+          <img src="assets/logo.png" alt="brand logo" />
+          <h3 class="logo-title">SCHOOL</h3>
         </div>
+        <ul class="nav-links flex">
+          <li class="nav-item">
+            <a href="#" id="home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" id="about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" id="facilities" class="nav-link">Facilities</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" id="admission" class="nav-link">Admission</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="btn">
+          <button class="nav-btn">Contact</button>
+        </div>
+      </nav>
+      <div class="hero flex">
+        <div class="hero-content">
+          <h3 class="hero-title">
+            <span id="empower">Empowering</span><br />
+            students from small age <span id="vision">towards vision</span>
+          </h3>
+          <div class="hero-description">
+            With the courage, Confidence, Creativity and Compassion to make
+            their Unique Contribution in a Diverse and Dynamic World.
+          </div>
+          <div class="hero-button">
+            <button class="hero-btn">Enroll Now</button>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="assets/hero-kids.png" alt="" />
+        </div>
+      </div>
     </header>
     <main class="main">
-        <!-- curriculum section start -->
-        <section class="curriculum-section">
-            <h3 class="section-title">Standard Curriculum</h3>
-            <div class="curriculum-card flex">
-                <div class="card" id="card1">
-                    <div class="card-img">
-                        <img src="assets/kinder.png" alt="3d food image">
-                    </div>
-                    <h4 class="card-title">Kinder (3-6) Years</h4>
-                    <p class="card-description">
-                        Activities that help children develop skills in writing, reading, science, and social interaction.</p>
-                    <a href="#" class="card-link">Read More</a>
-                </div>
-                <div class="card" id="card2">
-                    <div class="card-img">
-                        <img src="assets/elementary.png" alt="school elementary">
-                    </div>
-                    <h4 class="card-title">Elementary School</h4>
-                    <p class="card-description">
-                        The elementary curriculum is designed to help young children stay curious, inquisitive, and excited about
-                        learning.</p>
-                    <a href="#" class="card-link">Read More</a>
-                </div>
-                <div class="card" id="card3">
-                    <div class="card-img">
-                        <img src="assets/middle.png" alt="">
-                    </div>
-                    <h4 class="card-title">Middle (10-16) Years</h4>
-                    <p class="card-description">The standard curriculum for ages 10-16 develops critical thinking, problem-solving, and core subjects.</p>
-                    <a href="#" class="card-link">Read More</a>
-                </div>
+      <!-- curriculum section start -->
+      <section class="curriculum-section">
+        <h3 class="section-title">Standard Curriculum</h3>
+        <div class="curriculum-card flex">
+          <div class="card" id="card1">
+            <div class="card-img">
+              <img src="assets/kinder.png" alt="3d food image" />
             </div>
-            <div class="arrow-btn flex">
-                <div class="left-arrow">
-                    <i class="fa-solid fa-angle-left"></i>
-                </div>
-                <div class="right-arrow">
-                    <i class="fa-solid fa-angle-right"></i>
-                </div>
+            <h4 class="card-title">Kinder (3-6) Years</h4>
+            <p class="card-description">
+              Activities that help children develop skills in writing, reading,
+              science, and social interaction.
+            </p>
+            <a href="#" class="card-link">Read More</a>
+          </div>
+          <div class="card" id="card2">
+            <div class="card-img">
+              <img src="assets/elementary.png" alt="school elementary" />
             </div>
-        </section>
-        <!-- our stories section start -->
-        <section class="stories-section">
-            <h3 class="section-title">Our Stories</h3>
-            <div class="stories-card flex">
-                <div class="story1-card">
-                    <img src="assets/story-1.png" alt="little boy & girl">
-                    <div class="story1-content">
-                        <button id="story1-btn">November 19, 2019</button>
-                        <h3 class="story1-title">A fun toddler coloring training on classroom</h3>
-                        <p class="story1-description">Beautiful branding for changes by Never Now in Australia.
-                            changes is a platform for open discussion in an inclusive and
-                            collaborative environment, providing the...</p>
-                    </div>
-                </div>
-                <div class="story2-card-container">
-                    <div class="story2-card">
-                        <img src="assets/story-2.png" alt="">
-                        <button class="story2-btn">November 19, 2019</button>
-                        <h3 class="story-title">Find out if a school fits the family’s needs</h3>
-                    </div>
-                    <div class="story2-card">
-                        <img src="assets/story-3.png" alt="">
-                        <button class="story2-btn bg-blue">November 19, 2019</button>
-                        <h4 class="story-title">Summer math & literacy
-                            centres for kids</h4>
-                    </div>
-                    <div class="story2-card">
-                        <img src="assets/story-4.png" alt="">
-                        <button class="story2-btn">November 19, 2019</button>
-                        <h4 class="story-title">Classroom management
-                            techniques for new tutors</h4>
-                    </div>
-                    <div class="story2-card">
-                        <img src="assets/story-5.png" alt="">
-                        <button class="story2-btn">November 19, 2019</button>
-                        <h4 class="story-title">Conversation rhymes
-                            improve kids listening</h4>
-                    </div>
-                    <div class="story2-card extra-card">
-                        <img src="assets/story-5.png" alt="">
-                        <button class="story2-btn">November 19, 2019</button>
-                        <h4 class="story-title">Conversation rhymes
-                            improve kids listening</h4>
-                    </div>
-                    <div class="story2-card extra-card">
-                        <img src="assets/story-4.png" alt="">
-                        <button class="story2-btn">November 19, 2019</button>
-                        <h4 class="story-title">Classroom management
-                            techniques for new tutors</h4>
-                    </div>
-                </div>
-                
+            <h4 class="card-title">Elementary School</h4>
+            <p class="card-description">
+              The elementary curriculum is designed to help young children stay
+              curious, inquisitive, and excited about learning.
+            </p>
+            <a href="#" class="card-link">Read More</a>
+          </div>
+          <div class="card" id="card3">
+            <div class="card-img">
+              <img src="assets/middle.png" alt="" />
             </div>
-            <div class="center">
-                <button class="story-btn">View All</button>
+            <h4 class="card-title">Middle (10-16) Years</h4>
+            <p class="card-description">
+              The standard curriculum for ages 10-16 develops critical thinking,
+              problem-solving, and core subjects.
+            </p>
+            <a href="#" class="card-link">Read More</a>
+          </div>
+        </div>
+        <div class="arrow-btn flex">
+          <div class="left-arrow">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="right-arrow">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </section>
+      <!-- our stories section start -->
+      <section class="stories-section">
+        <h3 class="section-title">Our Stories</h3>
+        <div class="stories-card flex">
+          <div class="story1-card">
+            <img src="assets/story-1.png" alt="little boy & girl" />
+            <div class="story1-content">
+              <button id="story1-btn">November 19, 2019</button>
+              <h3 class="story1-title">
+                A fun toddler coloring training on classroom
+              </h3>
+              <p class="story1-description">
+                Beautiful branding for changes by Never Now in Australia.
+                changes is a platform for open discussion in an inclusive and
+                collaborative environment, providing the...
+              </p>
             </div>
-        </section>
+          </div>
+          <div class="story2-card-container">
+            <div class="story2-card">
+              <img src="assets/story-2.png" alt="" />
+              <button class="story2-btn">November 19, 2019</button>
+              <h3 class="story-title">
+                Find out if a school fits the family’s needs
+              </h3>
+            </div>
+            <div class="story2-card">
+              <img src="assets/story-3.png" alt="" />
+              <button class="story2-btn bg-blue">November 19, 2019</button>
+              <h4 class="story-title">
+                Summer math & literacy centres for kids
+              </h4>
+            </div>
+            <div class="story2-card">
+              <img src="assets/story-4.png" alt="" />
+              <button class="story2-btn">November 19, 2019</button>
+              <h4 class="story-title">
+                Classroom management techniques for new tutors
+              </h4>
+            </div>
+            <div class="story2-card">
+              <img src="assets/story-5.png" alt="" />
+              <button class="story2-btn">November 19, 2019</button>
+              <h4 class="story-title">
+                Conversation rhymes improve kids listening
+              </h4>
+            </div>
+            <div class="story2-card extra-card">
+              <img src="assets/story-5.png" alt="" />
+              <button class="story2-btn">November 19, 2019</button>
+              <h4 class="story-title">
+                Conversation rhymes improve kids listening
+              </h4>
+            </div>
+            <div class="story2-card extra-card">
+              <img src="assets/story-4.png" alt="" />
+              <button class="story2-btn">November 19, 2019</button>
+              <h4 class="story-title">
+                Classroom management techniques for new tutors
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="center">
+          <button class="story-btn">View All</button>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer-logo">
-            <div class="logo-container flex">
-                <img src="assets/footer_logo.png" alt="">
-            <h3 class="footer-logo-title">Kids
-                Education</h3>
-            </div>
-                <p class="footer-logo-description">Kids' education builds foundational skills, creativity, social development, problem-solving, and lifelong learning through engaging experiences.</p>
+      <div class="footer-logo">
+        <div class="logo-container flex">
+          <img src="assets/footer_logo.png" alt="" />
+          <h3 class="footer-logo-title">Kids Education</h3>
         </div>
-        <div class="footer-links">
-            <h4 class="footer-links-title">About School</h4>
-            <ul class="footer-nav">
-                <li>Home</li>
-                <li>About</li>
-                <li>Facilities</li>
-                <li>Admission</li>
-            </ul>
+        <p class="footer-logo-description">
+          Kids' education builds foundational skills, creativity, social
+          development, problem-solving, and lifelong learning through engaging
+          experiences.
+        </p>
+      </div>
+      <div class="footer-links">
+        <h4 class="footer-links-title">About School</h4>
+        <ul class="footer-nav">
+          <li>Home</li>
+          <li>About</li>
+          <li>Facilities</li>
+          <li>Admission</li>
+        </ul>
+      </div>
+      <div class="footer-icon">
+        <h4 class="footer-icon-title">Keep In Touch</h4>
+        <div class="footer-icons">
+          <img src="assets/fb.png" alt="facebook_logo" />
+          <img src="assets/dribble.png" alt="dribble_logo" />
+          <img src="assets/twitter.png" alt="twitter_logo" />
+          <img src="assets/google+.png" alt="google+ logo" />
         </div>
-        <div class="footer-icon">
-            <h4 class="footer-icon-title">Keep In Touch</h4>
-            <div class="footer-icons">
-                <img src="assets/fb.png" alt="facebook_logo">
-                <img src="assets/dribble.png" alt="dribble_logo">
-                <img src="assets/twitter.png" alt="twitter_logo">
-                <img src="assets/google+.png" alt="google+ logo">
-            </div>
-        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
