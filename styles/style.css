@@ -551,6 +551,9 @@
     .marquee{
         padding: 16px;
         font-size: 1.5rem;
+        background: #01ACFD;
+        color: #fff;
+        border-radius: 0;
     }
     .card:hover{
         transform: translateY(0);
