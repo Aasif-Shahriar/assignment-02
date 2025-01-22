@@ -88,10 +88,11 @@
   color: #fff;
   border-radius: 12px;
   cursor: pointer;
-  transition: background .5s;
+  transition: all .5s;
 }
 .nav-btn:hover{
     background: #01ACFD;
+    transform: translateY(-5px);
 }
 .hamburger{
     display: none;
