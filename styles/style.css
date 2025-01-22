@@ -29,6 +29,12 @@
     font-size: 2rem;
     font-weight: 700;
     font-family: "Raleway";
+    transition: all .5s;
+    border-radius: 5px;
+}
+.marquee:hover{
+    background: #01ACFD;
+    color: white;
 }
 .assignment{
     color: #F0AA00;
